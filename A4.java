@@ -3,8 +3,8 @@ public class A4 {
 
 	public static void main(String[] args) {
 	int i,j,s=0,n,rw=0,r,q;
-	for(i=100;i<1000;i++);{
-	for(j=100;j<1000;j++);{
+	for(i=100;i<1000;i++){
+	for(j=100;j<1000;j++){
 	n=i*j;
 	q=n;
 	while(q>0)
