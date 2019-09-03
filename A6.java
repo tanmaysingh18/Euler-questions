@@ -8,7 +8,7 @@ public class A6 {
 	s=m*m;// square of sum of first 100 natural numbers
 	p=s-a;
 	System.out.println(p);
-return ;
+
 	}
 
 }
