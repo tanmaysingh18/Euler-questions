@@ -1,25 +1,16 @@
 
 public class A3 {
 
-	private static int isPrimeFactors(long l) {
-		// TODO Auto-generated method stub
-		
-	int i;
-		for( i=2;i<l;i++) {
-		if(l%i==0) {
-			l%=i;
-				i--;
-		}
-		}
-	return i;
-    }
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println(isPrimeFactors(600851475143L));
-
+	public static void main(String[]args) {
+	long ans=600851475143l;	
+      for(long i=3,a=ans;a!=1;i+=2)
+	   if(a%i==0){
+		 while(a%i==0)
+		a/=i;
+		 ans=i;
+	   }
+	System.out.println(ans);
 	}
-
-
-	}
+}
 
 
