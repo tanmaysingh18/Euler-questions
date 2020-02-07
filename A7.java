@@ -1,25 +1,21 @@
-
+import java.util.Scanner;
+import java.lang.Math;
 public class A7 {
 
 	public static void main(String[] args) {
-	int n=1,t=1,c=0,prime=0;	
-while(c!=10001)
-{
-	t=0;
-	n++;
-for(int i=1;i<n;i++)
-{
-	if(n%i==0)
-		t=t+1;
-	
-		
+	Scanner k=new Scanner(System.in);
+  int n=,pc=1,i;
+  int j=0;		
+System.out.println("Enter which prime number you want to know:");
+n=k.nextInt();
+for(i=3;pc!=n;i+=2){
+for(j=3;j<i;j+=2){
+if(i%j==0)
+break;
 }
-if(t==2)
-{
-	c++;
-	prime=n;
+if(j==i)
+ pc++;
 }
-}
-System.out.println("the 10001 prime no is"+prime);	
+System.out.println(n"th Prime Number is"+j);
 }
 }
