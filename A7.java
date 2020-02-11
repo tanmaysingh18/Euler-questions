@@ -3,7 +3,7 @@ public class A7 {
 
 	public static void main(String[] args) {
 	Scanner k=new Scanner(System.in);
-  int n=,pc=1,i;
+  int n,pc=1,i;
   int j=0;		
 System.out.println("Enter which prime number you want to know:");
 n=k.nextInt();
