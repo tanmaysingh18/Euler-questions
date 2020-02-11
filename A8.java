@@ -7,8 +7,9 @@ String s = "73167176531330624919225119674426574742355349194934969835203127745063
 long k=0;	
 int numberOfDigits=13;
 int dif=s.length()-numberOfDigits;		
-int product=1;	
-for(int i=0;i<dif;i++) {
+
+for(int i=0;i<=dif;i++) {
+        int product=1;
 	int sup=i+numberOfDigits;
 	for(int j=i;j<sup;j++) {	
 
