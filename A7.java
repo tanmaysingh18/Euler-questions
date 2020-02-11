@@ -15,6 +15,6 @@ break;
 if(j==i)
  pc++;
 }
-System.out.println(n"th Prime Number is"+j);
+System.out.println(n+"th Prime Number is"+j);
 }
 }
